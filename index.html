@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descarga BieneScript</title>
+    <!-- Incluye Tailwind CSS para un diseño moderno y responsive -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body class="bg-gradient-to-br from-green-700 to-green-900 min-h-screen flex flex-col items-center justify-center p-4">
+
+    <!-- Contenedor principal de la landing page -->
+    <main class="bg-white rounded-3xl shadow-2xl p-8 sm:p-12 w-full max-w-md mx-auto text-center transform transition-all duration-300 hover:scale-105 fade-in">
+        <!-- Contenedor del logo con efecto de sombra y bordes redondeados -->
+        <div class="logo-container mb-8">
+            <img src="./assets/logo/logo.jpeg" alt="BieneScript Logo" class="w-36 h-36 mx-auto shadow-lg object-contain">
+        </div>
+
+        <h1 class="text-4xl sm:text-5xl font-bold text-green-800 mb-4 animate-bounce-in">¡Descubre BieneScript!</h1>
+
+        <p class="text-gray-700 text-lg sm:text-xl leading-relaxed mb-8">
+            Aprende a programar de manera dinámica con ayuda de nuestro asistente inteligente
+        </p>
+
+        <a href="http://vikdev.dev/bienescript.apk" class="download-button inline-flex items-center justify-center px-10 py-4 text-white text-2xl font-semibold rounded-full shadow-lg uppercase tracking-wide transform hover:-translate-y-1 focus:outline-none focus:ring-4 focus:ring-yellow-300 fade-in">
+            <!-- Icono de descarga de Lucide React, simulado con un SVG simple -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-3">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            Descargar APK
+        </a>
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="mt-8 text-white text-sm opacity-80 fade-in">
+        &copy; 2025 BieneScript. Todos los derechos reservados.
+    </footer>
+
+</body>
+</html>
